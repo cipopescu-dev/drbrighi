@@ -1,0 +1,36 @@
+:root {
+  --background: #121212;
+  --surface: #1e1e1e;
+  --accent: #00aaf0;
+  --primary: rgba(255, 255, 255, 0.85);
+  --secondary: rgba(255, 255, 255, 0.6);
+  --disabled: rgba(255, 255, 255, 0.3);
+  --app-width: min(100dvw, 1000px);
+
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--primary);
+  background-color: var(--background);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+:root::-webkit-scrollbar {
+  display: none;
+}
+
+
+img {
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto;
+  max-width: 90dvw;
+}
+
+figcaption {
+    text-align: center;
+}
